@@ -36,13 +36,13 @@ header .toggle {
     position: relative;
     width: 36px;
     height: 28px;
-    background: url(images/toggle.png);
+    background: url(../images/toggle.png);
     background-size: cover;
     cursor: pointer;
 }
 
 header .toggle.active {
-    background: url(/images/close.png);
+    background: url(../images/close.png);
     background-size: cover;
 }
 
