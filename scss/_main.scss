@@ -1,0 +1,40 @@
+@use 'variables';
+@use 'base';
+
+.about {
+    position: relative;
+    width: 100%;
+    background: variables.$c-bg-top-nav;
+    display: flex;
+}
+
+.about .contentBx {
+    background: variables.$c-bg-top-nav;
+    padding: 100px;
+    width: 50%;
+}
+
+.about .contentBx .heading {
+    position: relative;
+    color: variables.$c-t-primary;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .contentBx .text {
+    position: relative;
+    color: variables.$c-t-primary;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.imgBx {
+    position: relative;
+    width: 50%;
+    background-image: url(/images/window.jpg);
+    background-size: cover;
+    background-position: center;
+}
