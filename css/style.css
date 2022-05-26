@@ -60,7 +60,7 @@ header .toggle {
   position: relative;
   width: 36px;
   height: 28px;
-  background: url(/images/toggle.png);
+  background: url(images/toggle.png);
   background-size: cover;
   cursor: pointer;
 }
@@ -183,7 +183,7 @@ header .toggle.active {
 .imgBx {
   position: relative;
   width: 50%;
-  background-image: url(/images/window.jpg);
+  background-image: url(images/window.jpg);
   background-size: cover;
   background-position: center;
 }/*# sourceMappingURL=style.css.map */
